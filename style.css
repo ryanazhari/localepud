@@ -1,0 +1,156 @@
+/* Utilities */
+
+@font-face {
+    font-family: 'pristina';
+    src: url('pristina.TTF') format('truetype');
+}
+@font-face {
+    font-family: 'bell';
+    src: url('bell.TTF') format('truetype');
+}
+@font-face {
+    font-family: 'segoeu';
+    src: url('segoeuisl.ttf') format('truetype');
+}
+
+.inner-web {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('Export/banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.inner-width {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* End Utilities */
+
+/* Navbar */
+.navbar .navbar-brand img {
+    height: 32px;
+}
+.navbar .navbar-nav .nav-link, .btnCek {
+    color: #F9F9F9;
+    margin: 0 12px;
+    font-size: 22px;
+    transition: .2s ease-in;
+    font-family: 'pristina', serif;
+}
+.navbar .navbar-nav .nav-link:hover {
+    color: rgb(255, 74, 74);
+}
+.navbar .btnCek {
+    font-family: 'bell', serif;
+    font-size: 18px;
+}
+.navbar .btnCek {
+    width: 130px;
+    padding: 4px;
+    transition: .3s ease-in;
+    background-color: rgb(255, 49, 49);
+    border-radius: 16px;
+    text-align: center;
+}
+.navbar .btnCek:hover {
+    background-color: rgb(214, 1, 1);
+    color: #FFF;
+    text-decoration: none;
+}
+/* End Navbar */
+/* Content */
+.content {
+    margin-top: 75px;
+}
+.content h1, 
+.content h2 {
+    font-family: 'pristina', serif;
+    color: #F9F9F9;
+}
+.content h1 {
+    font-size: 100px;
+}
+.content h2 {
+    font-size: 80px;
+}
+.content p {
+    font-family: 'segoeu', sans-serif;
+    color: #FFF;
+    opacity: .8;
+    font-size: 18px;
+    width: 90%;
+    letter-spacing: .5px;
+    line-height: 32px;
+}
+.content .btn-pesan {
+    display: inline-block;
+    border-radius: 4px;
+    width: 190px;
+    transition: .4s ease-in;
+    padding: 4px 0;
+    color: #EEE;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(255, 49, 49);
+}
+.content .btn-pesan:hover {
+    background-color: rgb(214, 1, 1);
+    color: #FFF;
+    text-decoration: none;
+}
+.content .btn-chat {
+    display: inline-block;
+    text-decoration: none;
+    color: #F9F9F9;
+    font-size: 18px;
+    width: 180px;
+    position: absolute;
+    bottom: 4%;
+    right: 3%;
+    transition: .4s;
+    padding: 4px 0;
+    background-color: #22D528;
+    border-radius: 16px;
+    font-family: 'bell', serif;
+    text-align: center;
+}
+.content .btn-chat:hover {
+    background-color: rgb(18, 170, 23);
+    color: #FFF;
+}
+/* End Cntent */
+
+/* Responsive */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .inner-width {
+        padding: 0 20px;
+    }
+    .content {
+        margin-top: 50px;
+    }
+    .content h1 {
+        font-size: 90px;
+    }
+    .content h2 {
+        font-size: 74px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
